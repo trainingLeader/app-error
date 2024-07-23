@@ -19,7 +19,7 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public Optional<User> findById(Long id) {
-        throw new UnsupportedOperationException("Unimplemented method 'findById'");
+        return users.stream().filter( usr -> usr.getId().equals(id) ).findFirst();
     }
 
 }
