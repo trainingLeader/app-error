@@ -17,7 +17,7 @@ public class AppConfig {
         users.add(new User(1L, "Pepe", "Gonzalez"));
         users.add(new User(2L, "Andres", "Mena"));
         users.add(new User(3L, "Maria", "Perez"));
-        users.add(new User(4L, "Josefa", "Ramirez"));
+        users.add(new User(4L, "Jose", "Ramirez"));
         users.add(new User(5L, "Ale", "Gutierrez"));
         return users;
     }
